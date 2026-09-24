@@ -1,0 +1,10 @@
+stages:
+  - test
+
+go-test:
+  stage: test
+  image: golang:1.22
+  script:
+    - go test -cover ./...
+  rules:
+    - if: $CI_PIPELINE_SOURCE
