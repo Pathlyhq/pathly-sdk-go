@@ -1,5 +1,5 @@
-// Package pathly is the official Go client for the Pathly public `/v1` API
-// (https://pathlyhq.com — docs: https://pathlyhq.com/en/developers).
+// Package pathly is the official Go client for the Pathly public `/v1` API.
+// Site: https://pathlyhq.com — docs: https://pathlyhq.com/en/developers
 //
 // Hand-written rather than generated: creates stay idempotent, Retry-After is
 // honoured, and a missing resource (404) stays distinct from a transport failure.
