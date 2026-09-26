@@ -42,6 +42,7 @@ type ScenarioInput struct {
 	Runbook        *string `json:"runbook,omitempty"`
 	Cron           *string `json:"cron,omitempty"`
 	Enabled        *bool   `json:"enabled,omitempty"`
+	HttpChain      []map[string]any `json:"httpChain,omitempty"`
 }
 
 // MaintenanceWindow is a planned silence window for a scenario.

@@ -54,6 +54,19 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(sc.ID)
+	chainName := "Login then /me"
+	chain, err := client.CreateScenario(context.Background(), pathly.ScenarioInput{
+		Name:        &chainName,
+		IntervalSec: &interval,
+		HttpChain: []map[string]any{
+			{"method": "POST", "url": "https://api.example.com/login", "assertStatus": 200},
+			{"method": "GET", "url": "https://api.example.com/me", "assertStatus": 200},
+		},
+	}, "")
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(chain.ID)
 }
 ```
 

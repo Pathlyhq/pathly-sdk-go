@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-09-26
+
+- `ScenarioInput.HttpChain` for Chain hops (`httpChain` on `/v1/scenarios`).
+
 ## 0.1.0 — 2026-09-23
 
 - First publish: Go client for Pathly monitoring HTTP scenarios, webhooks,
