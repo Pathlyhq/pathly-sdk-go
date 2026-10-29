@@ -22,7 +22,7 @@ import (
 
 const (
 	// Version is the SDK semver (also used in the default User-Agent).
-	Version = "0.1.1"
+	Version = "0.1.1" // x-release-please-version
 
 	// DefaultBaseURL is the production API.
 	DefaultBaseURL = "https://api.pathlyhq.com"
