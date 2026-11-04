@@ -70,7 +70,7 @@ Liens utiles : [pathlyhq.com](https://pathlyhq.com),
 
 | Package | Role |
 |---|---|
-| [pathly-terraform-provider](https://github.com/pathlyhq/pathly-terraform-provider) | Terraform / OpenTofu |
+| [terraform-provider-pathly](https://github.com/Pathlyhq/terraform-provider-pathly) | Terraform / OpenTofu |
 | [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | @pathlyhq/sdk |
 | [pathly-sdk-python](https://github.com/pathlyhq/pathly-sdk-python) | pathly |
 | [pathly-sdk-php](https://github.com/pathlyhq/pathly-sdk-php) | pathlyhq/sdk |

@@ -1,4 +1,4 @@
-# Same checks as .gitlab-ci.yml (go-test).
+# CI checks (go-test).
 name: CI
 
 on:
